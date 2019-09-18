@@ -1,0 +1,5 @@
+1、查看密钥：运行Git Bash客户端，执行ls ~/.ssh
+2、生成密钥：执行ssh-keygen -t rsa -C "xxx.xxx.com";
+3、站点注册：将id_rsa.pub复制到github的站点Settings--SSH Keys--Key
+4、下载资源：git clone ssh地址：git clone git@gitlab.kaikeba.com:java/java04/02-spring.git
+
